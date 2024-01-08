@@ -28,3 +28,11 @@
 #     else:
 #         counter = 0
 # print(result)
+
+
+# import random
+# n = int(input("Введите число арбузов: "))
+# weight_watermelons_list = [random.randint(1, 11) for _ in range(n)]
+# max_weight = max(weight_watermelons_list)
+# min_weight = min(weight_watermelons_list)
+# print(f'Самый легкий арбуз для тёщи весит {min_weight} кг., а самый тяжелый, для себя, {max_weight} кг.')
