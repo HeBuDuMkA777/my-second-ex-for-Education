@@ -15,3 +15,16 @@
 # if my_fib[-2] != n:
 #     print(-1)
     
+# import random
+# n = int(input("Введите число от 1 до 100: "))
+# temperature_list = [random.randint(-50, 50) for _ in range(n)]
+# result = 1
+# counter = 0
+# for i in temperature_list:
+#     if i > 0:
+#         counter += 1
+#         if counter > result:
+#             result = counter
+#     else:
+#         counter = 0
+# print(result)
