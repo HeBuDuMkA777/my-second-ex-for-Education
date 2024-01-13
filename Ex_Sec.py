@@ -63,3 +63,43 @@
 #     if my_list[i] > my_list[i-1]:
 #         counter += 1
 # print(counter)
+
+
+# n = int(input("Введите количество холодильников: "))
+# words = []
+# name_virus = "anton"
+# for _ in range(n):
+#     words.append(input())
+
+# for i in range(n):
+#     word = words[i]
+#     anton_index = 0
+#     for letter in word:
+#         if letter == name_virus[anton_index]:
+#             anton_index += 1
+#             if anton_index == 5:
+#                 print(i + 1, end=" ")
+#                 break
+
+# Напишите функцию, которая принимает одно число и проверяет, является ли оно простым
+
+# *Напоминание: Простое число - это число, которое имеет 2 делителя: 1  и n(само число)*
+
+
+# def simple(n, div = 2):
+#     if n == 2 or div ** 2 > n:
+#         return True
+#     elif n % div == 0:
+#         return False
+#     return simple(n, div + 1)
+
+# print(simple(6))
+
+# def pal(s):
+#     if len(s) <= 1:
+#         return True
+#     elif s[0] == s[-1]:
+#         return pal(s[1:-1])
+#     return False
+
+# print(pal("215132"))
