@@ -103,3 +103,67 @@
 #     return False
 
 # print(pal("215132"))
+
+# def divs(n, div = 1):
+#     result = []
+#     while div < n:
+#         if n % div == 0:
+#             result.append(div)
+#             div += 1
+#         else:
+#             div += 1
+#     return result
+
+# def summ(my_list):
+#     result = 0
+#     for i in my_list:
+#         result += i
+#     return result
+
+# k = int(input())
+# for j in range(1, k+1):
+    
+
+
+# list_1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+# min_number = 0
+# max_number = 10
+# result = []
+# for i in range(len(list_1)):
+#     if min_number <= list_1[i] <= max_number:
+#         result.append(i)
+# print(*result, sep="\n")
+
+# a1 = 2         # Первый элемент
+# d = 3          # Разность
+# n = 4          # Количество элементов
+
+# def progr(a1, d, n):
+#     if n == 1:
+#         return [a1]
+#     else:
+#         prev_terms = progr(a1, d, n-1)
+#         prev_term = prev_terms[-1]
+#         prev_terms.append(prev_term + d)
+#         return prev_terms
+
+# progression = progr(a1, d, n)
+# print(*progression, sep="\n") 
+
+
+
+# def sum_of_divisors(n):
+#     s = 1
+#     for i in range(2, int(n**0.5) + 1):
+#         if n % i == 0:
+#             s += i
+#             if i != n // i:
+#                 s += n // i
+#     return s
+
+# k = int(input("Введите число k: "))
+
+# for n in range(2, k+1):
+#     m = sum_of_divisors(n)
+#     if m > n and sum_of_divisors(m) == n and m <= k:
+#         print(n, m)
